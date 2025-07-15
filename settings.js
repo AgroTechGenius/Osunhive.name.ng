@@ -103,7 +103,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Telebotdev",
         AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "true",
+   READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "12792506167",
