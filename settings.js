@@ -27,7 +27,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+        AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆*",
@@ -91,7 +91,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Telebotdev",
         AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "false",
+              AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
@@ -100,10 +100,10 @@ OWNER_NAME: process.env.OWNER_NAME || "Telebotdev",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
-   READ_CMD: process.env.READ_CMD || "false",
+   READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
      DEV: process.env.DEV || "12792506167",
